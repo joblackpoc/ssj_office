@@ -81,12 +81,8 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'healthkm',
-        'USER': 'webadmin',
-        'PASSWORD': 'Cmpo@00086',
-        'HOST': '172.16.30.104',
-        'PORT': '3306',
     }
 }
 
