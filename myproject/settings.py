@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*i^z=i!7djhr3%v@$*v--6l5+28=4ku%2bmb839mq!29-r==d7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -82,9 +82,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'myblogs',
-        'USER':'root',
-        'PASSWORD':''
+        'NAME': 'healthkm',
+        'USER': 'webadmin',
+        'PASSWORD': 'Cmpo@00086',
+        'HOST': '172.16.30.104',
+        'PORT': '3306',
     }
 }
 

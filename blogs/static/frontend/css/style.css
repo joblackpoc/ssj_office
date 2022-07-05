@@ -537,10 +537,12 @@ div.tab button:hover {
 
 .masonry-box img,
 .masonry-box {
-    width: 100%;
+
+    width: 90%;
 }
 
 .masonry-box {
+
     border: 0.34rem solid #fff;
 }
 
