@@ -71,9 +71,9 @@
                 </nav>
             </div><!-- end container-fluid -->
         </header><!-- end market-header -->
-        <section class="section first-section">
-            <div class="container-fluid">
-                <div class="masonry-blog clearfix">
+        <section class="section">
+    <!-- <div class="container-fluid">
+            <div class="masonry-blog clearfix">
                     {% for blog in latest%}
                     <div class="first-slot">
                         <div class="masonry-box post-media">
@@ -86,14 +86,16 @@
                                         <small><a href="#" title="">{{blog.created}}</a></small>
                                         <small><a href="{% url 'searchWriter' blog.writer %}" title="">by {{blog.writer}}</a></small>
                                         <small><a href="#" title=""><i class="fa fa-eye"></i> {{blog.views | intcomma}}</a></a></small>
-                                    </div><!-- end meta -->
-                                </div><!-- end shadow-desc -->
-                            </div><!-- end shadow -->
-                        </div><!-- end post-media -->
-                    </div><!-- end first-side -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     {% endfor%}
-                </div><!-- end masonry -->
+                </div>
+            
             </div>
+    -->
         </section>
 
         <section class="section">

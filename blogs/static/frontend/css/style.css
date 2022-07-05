@@ -400,7 +400,8 @@ div.tab button:hover {
 }
 
 .first-section {
-    padding: 0;
+    padding-top: 10px;
+    padding-left: 30px;
     border-bottom: 0;
 }
 
@@ -538,7 +539,7 @@ div.tab button:hover {
 .masonry-box img,
 .masonry-box {
 
-    width: 90%;
+    width: 80%;
 }
 
 .masonry-box {

@@ -22,7 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include("blogs.urls")),
     path('writer/dashboard/',include("writerpanel.urls")),
-    path('user/',include("loginsystem.urls"))
+    path('user/',include("loginsystem.urls")),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 
 if settings.DEBUG:
